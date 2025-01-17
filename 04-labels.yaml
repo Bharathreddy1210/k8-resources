@@ -6,6 +6,6 @@ metadata:
     course: kubernetes
     Subset: DevOps
 spec:
-  conatainers:
+  containers:
   - name: nginx
     image: nginx
