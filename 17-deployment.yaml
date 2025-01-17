@@ -16,8 +16,8 @@ metadata:
     template:
       metadata:
         labels:
-          tier: web
           app: nginx
+          tier: web
           project: test-project
       spec:
         containers:
