@@ -7,5 +7,5 @@ metadata:
     Subset: DevOps
 spec:
   conatainers:
-  - name: naginx
+  - name: nginx
     image: nginx
