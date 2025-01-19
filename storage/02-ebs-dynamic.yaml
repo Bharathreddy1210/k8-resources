@@ -18,7 +18,7 @@ kind: Pod
 metadata:
   name: nginx-dynamic
   labels:
-    purpose: ebs-static
+    purpose: ebs-dynamic
     project: expense
 spec:
   containers:
@@ -32,4 +32,4 @@ spec:
   volumes:
   - name: persistent-storage
     persistentVolumeClaim:
-      claimName: ebs-static
+      claimName: ebs-dynamic
