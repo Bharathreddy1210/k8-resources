@@ -8,4 +8,4 @@ spec:
   storageClassName: efs-dynamic
   resources:
     requests:
-      storage: 5Gi
+      storage: 4Gi
