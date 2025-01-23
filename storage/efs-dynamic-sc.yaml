@@ -5,6 +5,6 @@ metadata:
 provisioner: efs.csi.aws.com
 parameters:
   provisioningMode: efs-ap
-  fileSystemId: fs-0d20141c0864e57fd
+  fileSystemId: fs-0ebbf7a80f2952928
   basePath: "/expense" # optional
  
