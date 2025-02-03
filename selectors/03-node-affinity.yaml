@@ -5,9 +5,10 @@ metadata:
 spec:
   affinity:
     nodeAffinity:
-      preferedDuringSchedulingIgnoredDuringExecution:
-        nodeSelectorTerms:
-        - matchExpressions:
+      preferredDuringSchedulingIgnoredDuringExecution:
+      - weight: 1
+        preference:
+          matchExpressions:
           - key: project
             operator: In
             values:
