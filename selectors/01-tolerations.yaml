@@ -11,5 +11,6 @@ spec:
     imagePullPolicy: Always
   tolerations:
   - key: "project"
+    operator: "Equal"
     value: "expense"
     effect: "NoSchedule"
